@@ -13,4 +13,4 @@ class Member:
         return self.__name
 
     def get_books(self):
-        return self.__books
+        return self.__books.copy()
