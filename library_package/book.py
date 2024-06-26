@@ -20,4 +20,5 @@ class Book:
         return self.__owner
 
     def set_owner(self, name):
+        #Ttype of name is str?
         self.__owner = name
